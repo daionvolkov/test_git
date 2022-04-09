@@ -1,0 +1,73 @@
+/* Первый слайд*/
+body {
+  font-family: 'Roboto'
+}
+.parent{
+    position:relative;
+    border: 1px solid #644AD8;
+    width:100%;
+    min-width:320px
+}
+
+.parent img{
+    display:block;
+    width:100%;
+}
+
+.parent div{
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom: 40%;
+    color:#fff;
+    padding:10px 0;
+    text-align: center;
+}
+
+/* Второй слайд*/
+.second__block {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Третий слайд*/
+.third__block {
+  max-width: 1000px;
+  z-index: 1;
+}
+
+/* Четвертый слайд*/
+.fourth__block {
+  position:relative;
+  border: 1px solid #644AD8;
+  width:100%;
+  min-width:320px;
+}
+
+.fourth__block img{
+    margin-top: -15%;
+    display:block;
+    width:100%;
+    z-index: 0;
+}
+
+.fourth__block div {
+    position:absolute;
+    height: 105%;
+    width:100%;
+    opacity: 80%;
+    margin-top: -2%;
+    background: black;
+    left:0;
+    top:0;
+    color:#fff;
+    padding:1px 0;
+    text-align: center;
+    z-index: 0;
+}
+
+.text__item {
+  margin-top: 15%;
+}
